@@ -1,0 +1,221 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgba(139, 211, 211, 0.767);
+}
+#containerTitulo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    position: relative;
+    top: 10px;
+   left: 100px;
+}
+#titulo{
+    text-align: center;
+    height: 80px;
+    width: 1000px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(72, 20, 218, 0.897);
+    background: white;
+    font-size: 40px;
+}
+#admin{
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+    background: white;
+    color: gray;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 900px;
+    border-radius: 50px;
+}
+#controler{
+    margin: 0px 0px 350px 70px;
+}
+
+#controler div{ 
+    padding: 10px;
+}
+#img{
+
+color: rgba(72, 20, 218, 0.897);
+font-size: 30px;
+}
+#iconoAdmin img{
+    height: 100px;
+}
+#icono img{
+    height: 30px;
+    padding-right: 10px;
+}
+#icono:hover{
+    background: rgb(224, 207, 207);
+    border-radius: 50px;
+}
+#cerrar{
+    position: relative;
+    top: 350px;
+    right: 130px;
+    
+}
+
+button{
+    background: rgba(72, 20, 218, 0.897);
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border: 0px solid;
+    font-size: 16px;
+    color: white;
+}
+
+#inicio{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 800px;
+    left: 900px;
+}
+#inicio div{
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center ;
+}
+#cantidad{
+    color: blue;
+    font-size: 30px;
+}
+#creditos{
+    height: 100px;
+    width: 200px;
+    margin-right: 40px;
+}
+
+#client{
+    background: white;
+    height: 700px;
+    width: 930px;
+    position: relative;
+    left: 400px;
+    bottom: 850px;
+    border-radius: 50px;
+}
+input{
+    height: 40px;
+    border-radius: 10px;
+    /* ext-align: center; */
+}
+
+#buscar{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    top: 20px;
+}
+
+#datos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    left: 25px;
+    top: 50px;
+    height: 50px;
+    width: 900px;
+    border-radius: 10px;
+    background: rgba(72, 20, 218, 0.897);
+    text-align: center;
+}
+
+#datos ul{
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#crearCliente{
+    background: white;
+    height: 700px;
+    width: 930px;
+    position: relative;
+    left: 400px;
+    bottom: 850px;
+    border-radius: 50px;
+}
+
+.agregar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    position: relative;
+    left: 100px;
+}
+
+  .input-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .input-item {
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    position: relative;
+    left: 10px;
+  }
+ 
+  .valores{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    border-left: 1px solid;
+    padding: 20px;
+  }
+  
+  #dat{
+    position: relative;
+    left: 50px;
+    padding: 30px;
+  }
+
+#guardar{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+select{
+    height: 40px;
+    border-radius: 50px;
+}
+
+button:hover{
+    height: 35px;
+    width: 95px;
+    box-shadow: 0px 4px 8px 3px black;
+}
+
+.credit{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    position: relative;
+    left: 100px;
+}
